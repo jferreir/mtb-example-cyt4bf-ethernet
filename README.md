@@ -30,6 +30,11 @@ This example uses the board's default configuration. See the kit user guide to e
 
 ## Software setup
 
+Add $HOME/.modustoolbox/manifest.loc with the following content
+https://github.com/Infineon/mtb-t2g-super-manifest/raw/main/mtb-super-manifest-f
+v2.xml
+
+
 Install a terminal emulator if you do not have one. Instructions in this document use [Tera Term](https://ttssh2.osdn.jp/index.html.en).
 This example requires no additional software or tools.
 
