@@ -1,0 +1,37 @@
+{
+    "version": 4,
+    "env": {
+        "mtbCompilerArgs": [
+            "-c","-mcpu=cortex-m0plus","--specs=nano.specs","-Og","-mthumb","-ffunction-sections","-fdata-sections","-ffat-lto-objects","-g","-Wall","-pipe"
+        ],
+        "mtbDefaultIncludePath": [
+            "../bsps/TARGET_APP_KIT_T2G-B-H_LITE","../bsps","../bsps/TARGET_APP_KIT_T2G-B-H_LITE/config/GeneratedSource","../bsps/TARGET_APP_KIT_T2G-B-H_LITE/config","../../mtb_shared/cat1cm0p/release-v1.1.0/COMPONENT_CAT1C","../../mtb_shared/cat1cm0p/release-v1.1.0","../../mtb_shared/cmsis/release-v5.8.0/Core/Include","../../mtb_shared/cmsis/release-v5.8.0/Core","../../mtb_shared/cmsis/release-v5.8.0","../../mtb_shared/core-lib/release-v1.4.1/include","../../mtb_shared/core-lib/release-v1.4.1","../../mtb_shared/mtb-hal-cat1/release-v2.4.3/COMPONENT_CAT1C/include/pin_packages","../../mtb_shared/mtb-hal-cat1/release-v2.4.3/COMPONENT_CAT1C/include","../../mtb_shared/mtb-hal-cat1/release-v2.4.3/COMPONENT_CAT1C","../../mtb_shared/mtb-hal-cat1/release-v2.4.3","../../mtb_shared/mtb-hal-cat1/release-v2.4.3/COMPONENT_CAT1C/include/triggers","../../mtb_shared/mtb-hal-cat1/release-v2.4.3/include","../../mtb_shared/mtb-hal-cat1/release-v2.4.3/include_pvt","../../mtb_shared/mtb-hal-cat1/release-v2.4.3/source","../../mtb_shared/mtb-pdl-cat1/release-v3.7.0/devices/COMPONENT_CAT1C/include","../../mtb_shared/mtb-pdl-cat1/release-v3.7.0/devices/COMPONENT_CAT1C","../../mtb_shared/mtb-pdl-cat1/release-v3.7.0/devices","../../mtb_shared/mtb-pdl-cat1/release-v3.7.0","../../mtb_shared/mtb-pdl-cat1/release-v3.7.0/devices/COMPONENT_CAT1C/include/ip","../../mtb_shared/mtb-pdl-cat1/release-v3.7.0/drivers/include","../../mtb_shared/mtb-pdl-cat1/release-v3.7.0/drivers","../../mtb_shared/mtb-pdl-cat1/release-v3.7.0/drivers/third_party/ethernet/include","../../mtb_shared/mtb-pdl-cat1/release-v3.7.0/drivers/third_party/ethernet","../../mtb_shared/mtb-pdl-cat1/release-v3.7.0/drivers/third_party"
+        ],
+        "mtbDefaultDefines": [
+            "COMPONENT_APP_KIT_T2G_B_H_LITE","COMPONENT_CAT1","COMPONENT_CAT1C","COMPONENT_CAT1C8M","COMPONENT_CM0P","COMPONENT_CM0P_0","COMPONENT_Debug","COMPONENT_GCC_ARM","COMPONENT_MW_CAT1CM0P","COMPONENT_MW_CMSIS","COMPONENT_MW_CORE_LIB","COMPONENT_MW_CORE_MAKE","COMPONENT_MW_MTB_HAL_CAT1","COMPONENT_MW_MTB_PDL_CAT1","COMPONENT_MW_RECIPE_MAKE_CAT1C","COMPONENT_SOFTFP","COMPONENT_XMC7xDUAL_CM0P_SLEEP","CORE_NAME_CM0P_0=1","CYT4BF8CDS","CY_APPNAME_proj_cm0p","CY_SUPPORTS_DEVICE_VALIDATION","CY_TARGET_BOARD=APP_KIT_T2G_B_H_LITE","CY_USING_HAL","DEBUG","TARGET_APP_KIT_T2G_B_H_LITE"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "MTB",
+            "compilerPath": "/mnt/ext/Embedded/devices/Infineon/toolbox/ModusToolbox/tools_3.1/gcc/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "${mtbCompilerArgs}"
+            ],
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "intelliSenseMode": "gcc-arm",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "includePath": [
+                "${mtbDefaultIncludePath}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "${mtbDefaultDefines}"
+            ]
+        }
+    ]
+}
